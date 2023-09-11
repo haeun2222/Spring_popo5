@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+	<typeAliases>
+		<typeAlias type="com.min.edu.dto.BoardDto" alias="BDto"/>
+		<typeAlias type="com.min.edu.model.mapper.UserDaoImpl" alias="UserVo"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="sqls/Board_Statement.xml"/>
+		<mapper resource="sqls/User_Statement.xml"/>
+	</mappers>
+
+</configuration>

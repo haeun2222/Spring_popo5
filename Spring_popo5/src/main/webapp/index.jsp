@@ -9,5 +9,6 @@
 <body>
 <a href="./home.do">게시판이동</a>
 <a href="./loginForm.do">로그인화면이동</a>
+<h2>Jenkins test</h2>
 </body>
 </html>
